@@ -1,0 +1,53 @@
+/* Pag coleccion2022 */
+#ProductoHilera1{
+    margin-top: 10vh;
+    height: 90vh;
+  }
+  #ProductoHilera2{
+    margin-top: 10vh;
+    height: 90vh;
+  }
+  #ProductoHilera3{
+    margin-top: 10vh;
+    height: 90vh;
+  }
+  
+  .cursorCorazon{
+    cursor: url(../fotos/icon-love.svg),auto;
+  }
+  .cursorMail {
+    cursor: url(../fotos/iconmonstr-email-1.svg), auto; }
+  
+  .resaltado:hover{
+    opacity: 0.9;
+  }
+  
+  h3{
+    font-family: 'arial', source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-size: 0.75rem;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      letter-spacing: 0.2rem;
+      background-color: #fff;
+      color: #000;
+      overflow-x: hidden;
+      width: 100%;
+      position: relative;
+  }
+  
+    /* accesorios responsive*/
+  @media (min-width: 450px) {
+    .accesorios {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 449.98px) {
+    .accesorios {
+      font-size: 8.3px;
+      font-weight: bolder;
+    }
+  }
+  /*FIN Pag coleccion2022 */
+  
