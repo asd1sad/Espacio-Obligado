@@ -99,12 +99,11 @@ function listaMensajes(registro) {
 }
 const mensajeLargo = el => el.mensaje.length > 20;
 const mensajesLargos = registro.filter(mensajeLargo);
-if(mensajesLargos){
-    console.log("Mensajes Largos: " ,mensajesLargos);
-}else{
-    false;
-}
+
+console.log("Mensajes Largos: " ,mensajesLargos);
+
 listaMensajes(registro);
+
 
 
 
