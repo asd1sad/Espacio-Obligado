@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* Landing Page */
+/* animacion */
+.girar {
+  animation-name: girar;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  cursor: url(../fotos/iconmonstr-candy-1-32.png), auto;
+}
+
+@keyframes girar {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* termina animacion */
+
+h1 {
+  color: rgba(158, 158, 158, 0.452);
+  text-shadow: 0.5px;
+  font-family: shared;
+  src: url("/font/Shared-jEr4G.ttf");
+  text-shadow: 1px 1px 1px #bebebe, 1px 2px 1px #bebebe, 1px 3px 1px #bebebe, 1px 4px 1px #bebebe, 1px 5px 1px #bebebe, 1px 6px 1px #bebebe, 1px 7px 1px #bebebe, 1px 8px 1px #bebebe, 1px 9px 1px #bebebe, 1px 10px 1px #bebebe, 1px 11px 1px #bebebe, 1px 12px 1px #bebebe, 1px 13px 1px #bebebe, 1px 14px 1px #bebebe, 1px 15px 1px #bebebe, 1px 16px 1px #bebebe, 1px 18px 6px rgba(16, 16, 16, 0.4), 1px 22px 10px rgba(16, 16, 16, 0.5), 1px 25px 35px rgba(16, 16, 16, 0.5), 1px 30px 60px rgba(16, 16, 16, 0.5);
+}
+
+/* diseño responsive */
+@media (min-width: 350px) {
+  h1 {
+    font-size: 8.5vw;
+  }
+}
+
+/*fin diseño responsive */
+
+.navegacionHtml {
+  margin: auto;
+  margin-top: 10vh;
+}
+
+/* !H2 */
+.navegacion {
+  font-family: 'arial', source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.2rem;
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
+}
+
+h2:hover {
+  opacity: 0.5;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Pagina Contacto */
+/* Frase */
+p {
+  font-family: 'arial', source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12vh;
+  font-size: 0.70rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  letter-spacing: 0.2rem;
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* contacto formulario */
+#contact-form {
+  left: 50%;
+  height: 60vh;
+}
+
+#tiktok:hover {
+  text-decoration: underline;
+}
+
+#instagram:hover {
+  text-decoration: underline;
+}
+
+
+/* instagram footer responsive*/
+@media (max-width: 449.98px) {
+  .instagram {
+    font-size: 1.4vh;
+  }
+
+  .tiktok {
+    font-size: 1.4vh;
+  }
+}
+
+/* fin Pag contacto */
+/* Pag coleccion2022 */
+#Hilera1 {
+  height: 20vh;
+}
+
+#ProductoHilera1 {
+  height: 80vh;
+}
+
+#Hilera2 {
+  height: 100vh;
+}
+
+#Hilera3 {
+  height: 100vh;
+}
+
+.cursorCorazon {
+  cursor: url(../fotos/icon-love.svg), auto;
+}
+
+.cursorMail {
+  cursor: url(../fotos/iconmonstr-email-1.svg), auto;
+}
+
+.resaltado:hover {
+  opacity: 0.9;
+}
+
+h3 {
+  font-family:'arial', source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.5vh;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  letter-spacing: 0.2rem;
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+
+/* accesorios responsive*/
+@media (min-width: 450px) {
+  .accesorios {
+    font-size: 1.5vh;
+  }
+}
+
+@media (max-width: 449.98px) {
+  .accesorios {
+    font-size: 1vh;
+    font-weight: bolder;
+  }
+}
+
+/*FIN Pag coleccion2022 */
+/* Pag Catalogo */
+#carousel {
+  top: 20%
+}
+
+.footerCatalogo {
+  top: 90%;
+  width: 100%;
+  cursor: pointer;
+}
+
+/*FIN Pag Catalogo */
+
+/* esconder menus al entrar por primera vez */
+#menuCatalogo,
+#menuContacto,
+#menuColeccion {
+  display: none;
+}
+
+/* Scroll none */
+body::-webkit-scrollbar {
+  background: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
